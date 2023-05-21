@@ -1,5 +1,4 @@
 <?php
-//zz
 class Stack
 {
     private $stack;
