@@ -91,7 +91,8 @@ while(true)
             break;
         case "2":
             $poppedElement = $stack->pop();
-             echo "Usunięto element: $poppedElement\n";
+            if($poppedElement !== null) 
+            echo "Usunięto element: $poppedElement\n";
             break;
         case "3":
             $stack->printStack();
